@@ -12,6 +12,11 @@
     background-color: rgba(0,0,0,.9);
 }
 
+.header .logo{
+    position: relative;
+    right: 10rem;
+}
+
 
 .header .navbar {
     display: flex;
@@ -20,7 +25,7 @@
     max-width: 1240px;
     margin: auto;
     height: 100%;
-    padding: 0 1rem;
+    padding: 5 1rem;
 }
 
 .header .nav-menu a {
@@ -49,6 +54,40 @@
 .hamburger {
     display: none;
 }
+
+/* button */
+
+.btn{
+    
+    border:  1px solid #ffffff;
+    height: 2rem;
+    width: 5rem;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.btn1{
+    background-color: #7B66F8;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    color: #ffffff;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #ffffff; /* Green */
+    color: #7B66F8;
+    transition-duration: 0.4s;
+  }
+  .btn1:hover {
+    background-color: #ffffff; /* Green */
+    color: #7B66F8;
+    transition-duration: 0.4s;
+  }
+  
 
 
 @media screen and (max-width:940px) {

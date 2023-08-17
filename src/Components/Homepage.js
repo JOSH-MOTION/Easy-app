@@ -7,10 +7,10 @@ const Homepage = () => {
     return (
         <div className='home'>
             <div className='content'>
+               <p>Discover an easy way to save money</p> 
+                <h2>Balancing your< br />money is the key< br />to having enough.</h2>
                 
-                <p>“Balancing your< br />money is the key< br />to having enough.”</p>
-                <p>Doesn't come with instructions</p>
-                <button href='/' className='button'>Free Consultation</button>
+                <button href='/' className='homebtn'>Free Consultation</button>
             </div>
         </div>
     )
